@@ -124,7 +124,7 @@ function preload() {
   endbg = loadImage("images/GameOverBackground.jpg");
 
   swordImage = loadImage("images/Sword2.png");
-  swordswoosh = loadSound("sounds/SwordSwoosh.wav");
+  swordswoosh = loadSound("sounds/swordSwoosh.wav");
 
   obs1 = loadImage("images/obstacle.png");
   obs2 = loadImage("images/obstacle2.png");
