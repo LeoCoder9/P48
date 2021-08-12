@@ -97,9 +97,11 @@ class Game {
   
             if (keyDown(UP_ARROW)) {
                 bird.y = bird.y - 8
+                writebirdPosition(bird.x,bird.y);
             }
             if (keyDown(DOWN_ARROW)) {
                 bird.y = bird.y + 8
+                writebirdPosition(bird.x,bird.y);
             }
         }
            
@@ -116,6 +118,7 @@ class Game {
         if(singleOrMulti === "single" || (singleOrMulti === "multi" && player.name===players[0])){
         if (keyDown("space")) {           
             knight.velocityY = -70
+            writeKnightPosition(knight.x, knight.y);
         }
 
         ThrowSwords()
